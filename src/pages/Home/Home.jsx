@@ -4,6 +4,7 @@ import Advise from './Adbise/Advise';
 import ThirdSection from './ThirdSection/ThirdSection';
 import FourthSection from './FourthSection/FourthSection';
 import Services from './Service/Services';
+import FifthSection from './FifthSection/FifthSection';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <ThirdSection></ThirdSection>
             <FourthSection></FourthSection>
             <Services></Services>
+            <FifthSection></FifthSection>
         </div>
     );
 };
