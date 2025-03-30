@@ -3,6 +3,7 @@ import Banner from './FirstSection/Banner';
 import Advise from './Adbise/Advise';
 import ThirdSection from './ThirdSection/ThirdSection';
 import FourthSection from './FourthSection/FourthSection';
+import Services from './Service/Services';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Advise></Advise>
             <ThirdSection></ThirdSection>
             <FourthSection></FourthSection>
+            <Services></Services>
         </div>
     );
 };
