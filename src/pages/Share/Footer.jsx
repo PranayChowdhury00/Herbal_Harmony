@@ -2,7 +2,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/f
 
 const Footer = () => {
   return (
-    <footer className="bg-[#214F4B] text-white py-10">
+    <footer className="bg-[#214F4B] text-white py-10 ">
       <div className="max-w-7xl mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* About Section */}
         <div>
@@ -26,9 +26,9 @@ const Footer = () => {
         {/* Contact Section */}
         <div>
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
-          <p className="text-gray-300">Email: contact@example.com</p>
-          <p className="text-gray-300">Phone: +123 456 7890</p>
-          <p className="text-gray-300">Address: 123 Main Street, City, Country</p>
+          <p className="text-gray-300">Email: pranaychowdhury00@gamil.com</p>
+          <p className="text-gray-300">Phone: +8801303572144</p>
+          <p className="text-gray-300">Address: Dhaka,Bangladesh</p>
 
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-4">
