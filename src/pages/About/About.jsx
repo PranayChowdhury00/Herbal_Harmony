@@ -3,6 +3,7 @@ import Banner from './Banner/Banner';
 import SecondeSection from './SecondeSection/SecondeSection';
 import ThirdSection from './ThirdSection/ThirdSection';
 import FourthSection from './FourthSection/FourthSection';
+import FifthSection from './FifthSection/FIfthSection';
 
 const About = () => {
     return (
@@ -11,6 +12,7 @@ const About = () => {
             <SecondeSection></SecondeSection>
             <ThirdSection></ThirdSection>
             <FourthSection></FourthSection>
+            <FifthSection></FifthSection>
         </div>
     );
 };
