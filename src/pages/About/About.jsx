@@ -4,6 +4,7 @@ import SecondeSection from './SecondeSection/SecondeSection';
 import ThirdSection from './ThirdSection/ThirdSection';
 import FourthSection from './FourthSection/FourthSection';
 import FifthSection from './FifthSection/FIfthSection';
+import SixthSection from './SixthSection/SixthSection';
 
 const About = () => {
     return (
@@ -13,6 +14,7 @@ const About = () => {
             <ThirdSection></ThirdSection>
             <FourthSection></FourthSection>
             <FifthSection></FifthSection>
+            <SixthSection></SixthSection>
         </div>
     );
 };
