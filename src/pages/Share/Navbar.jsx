@@ -24,7 +24,7 @@ const links = (
 
 const Navbar = () => {
   return (
-    <div className=" rounded-4xl h-24 navbar sticky top-0 z-20 bg-base-100 shadow-sm  max-w-7xl  mx-auto">
+    <div className=" rounded-4xl h-24 navbar  z-20 bg-base-100 shadow-sm  max-w-7xl  mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
