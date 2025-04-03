@@ -34,10 +34,10 @@ const Banner = () => {
         
         {/* Left Section (Text) */}
         <div className="w-1/2" data-aos="fade-right">
-          <h1 className="text-white font-extrabold text-4xl leading-snug">
+          <h1 className="text-[#214F4B] font-extrabold text-4xl leading-snug">
             Take the First Step Towards a Healthier You
           </h1>
-          <p className="text-white text-lg mt-4">
+          <p className="text-[#214F4B] text-lg mt-4">
             Your healing journey starts here. Let us guide you toward better health and well-being with expert care and support.
           </p>
           <button className="mt-6 bg-[#16C172] text-white font-semibold text-lg py-3 px-6 rounded-full shadow-lg hover:bg-[#139a5c] transition-all duration-300">
