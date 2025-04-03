@@ -18,35 +18,35 @@ const Banner = () => {
 
   return (
     <div
-      className="relative h-[700px] bg-cover bg-center flex items-center"
+      className="relative h-auto md:h-[700px] bg-cover bg-center flex items-center"
       style={{ backgroundImage: `url(${banner})` }}
     >
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
 
       {/* Navbar */}
-      <div className="absolute top-0 left-0 w-full py-6">
+      <div className="absolute top-0 left-0 w-full py-6 z-10">
         <Navbar />
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 max-w-7xl mx-auto flex items-center gap-10 px-6 mt-10">
-        
+      <div className="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 px-6 mt-10">
+
         {/* Left Section (Text) */}
-        <div className="w-1/2" data-aos="fade-right">
-          <h1 className="text-[#214F4B] font-extrabold text-4xl leading-snug">
+        <div className="w-full md:w-1/2 text-center md:text-left" data-aos="fade-right">
+          <h1 className="text-[#214F4B] font-extrabold text-3xl md:text-4xl leading-snug mt-24 md:mt-0">
             Take the First Step Towards a Healthier You
           </h1>
           <p className="text-[#214F4B] text-lg mt-4">
             Your healing journey starts here. Let us guide you toward better health and well-being with expert care and support.
           </p>
-          <button className="mt-6 bg-[#16C172] text-white font-semibold text-lg py-3 px-6 rounded-full shadow-lg hover:bg-[#139a5c] transition-all duration-300">
+          <button className="mt-6 bg-[#16C172] text-white font-semibold text-lg py-3 px-6 rounded-full shadow-lg hover:bg-[#139a5c] transition-all duration-300 mx-auto md:mx-0">
             Book an Appointment
           </button>
         </div>
 
         {/* Right Section (Image) */}
-        <div className="w-1/2" data-aos="fade-left">
+        <div className="w-full md:w-1/2" data-aos="fade-left">
           <img className="rounded-3xl shadow-lg w-full" src={flosImg} alt="Healing Process" />
         </div>
 

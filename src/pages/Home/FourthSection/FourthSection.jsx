@@ -22,7 +22,7 @@ const FourthSection = () => {
         className="w-[800px] h-[340px] rounded-2xl bg-[#214F4B] relative z-10 flex flex-col items-center justify-center text-center p-8"
         data-aos="fade-up"
       >
-        <h1 className="text-5xl text-white font-bold">
+        <h1 className="md:text-5xl text-3xl leading-snug text-white font-bold">
           Are you unable to visit? <br /> Book a telehealth consultation.
         </h1>
         <div className="flex items-center gap-10 mt-8">

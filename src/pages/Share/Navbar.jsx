@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className=" rounded-4xl h-24 navbar  z-20 bg-base-100 shadow-sm  max-w-7xl  mx-auto">
       <div className="navbar-start">
-        <div className="dropdown">
+        <div className="dropdown z-50">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> 
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> 
@@ -38,8 +38,8 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a href='/' className="btn btn-ghost text-2xl text-[#214F4B] flex items-center font-bold">
-          <TbFlowerFilled className='text-4xl'/> Herbal Harmony
+        <a href='/' className="btn btn-ghost  text-[#214F4B] flex items-center font-bold">
+          <TbFlowerFilled className='md:text-4xl text-2xl'/> Herbal Harmony
         </a>
       </div>
       <div className="navbar-center ml-24 hidden lg:flex">
@@ -48,7 +48,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn text-xl  bg-[#214F4B] rounded-2xl text-white font-medium">Booking</a>
+        <a className="btn md:text-xl  bg-[#214F4B] rounded-2xl text-white md:font-medium">Booking</a>
       </div>
     </div>
   );
